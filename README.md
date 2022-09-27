@@ -6,6 +6,7 @@
 |-----------------------------------------|
 
 ## Please fill in your project documentation in this README.md file 
+it is a test a for FABulous eFPGA, and the design files come form  nguyendao-uom 
 
 Refer to [README](docs/source/quickstart.rst) for a quick start of how to use caravel_user_project
 

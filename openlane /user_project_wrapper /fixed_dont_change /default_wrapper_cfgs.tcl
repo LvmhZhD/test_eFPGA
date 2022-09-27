@@ -21,5 +21,5 @@ set ::env(FP_PDN_HPITCH) 180
 
 ## PDN Offset 
 set ::env(FP_PDN_VOFFSET) 5
-set ::env(FP_PDN_HOFFSET) 
+set ::env(FP_PDN_HOFFSET) 235
 

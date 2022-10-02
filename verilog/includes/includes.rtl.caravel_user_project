@@ -1,5 +1,60 @@
 # Caravel user project includes
 -v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v	     
--v $(USER_PROJECT_VERILOG)/rtl/user_proj_example.v
+-v $(USER_PROJECT_VERILOG)/rtl/eFPGA_v3_top_sky130.v
+-v $(USER_PROJECT_VERILOG)/rtl/models_pack.v
+-v $(USER_PROJECT_VERILOG)/rtl/Config.v
+-v $(USER_PROJECT_VERILOG)/rtl/Frame_Data_Reg_Pack.v
+-v $(USER_PROJECT_VERILOG)/rtl/Frame_Select_Pack.v
+-v $(USER_PROJECT_VERILOG)/rtl/fabric_DSP_tile.v
+-v $(USER_PROJECT_VERILOG)/rtl/bitbang.v
+-v $(USER_PROJECT_VERILOG)/rtl/Config_access.v
+-v $(USER_PROJECT_VERILOG)/rtl/ConfigFSM.v
+-v $(USER_PROJECT_VERILOG)/rtl/config_UART.v
+-v $(USER_PROJECT_VERILOG)/rtl/defines.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/BlockRAM_1KB.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/DSP_bot_ConfigMem.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/DSP_bot_tile.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/DSP_tile.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/DSP_top_ConfigMem.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/DSP_top_tile.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/DSP_top_switch_matrix.v
 
+-v $(USER_PROJECT_VERILOG)/rtl/BB/LUT4AB_tile.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/DSP_bot_switch_matrix.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/N_term_DSP_tile.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/N_term_RAM_IO_tile.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/N_term_single2_tile.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/N_term_single_tile.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/RAM_IO_tile.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/RegFile_tile.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/S_term_DSP_tile.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/S_term_RAM_IO_tile.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/S_term_single2_tile.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/S_term_single_tile.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/W_IO_tile.v
  
+-v $(USER_PROJECT_VERILOG)/rtl/BB/InPass4_frame_config_mux.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/IO_1_bidirectional_frame_config_pass.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/LUT4AB_ConfigMem.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/LUT4AB_switch_matrix.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/LUT4c_frame_config_dffesr.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/MULADD.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/MUX8LUT_frame_config_mux.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/N_term_DSP_switch_matrix.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/N_term_RAM_IO_switch_matrix.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/N_term_single2_switch_matrix.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/N_term_single_switch_matrix.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/OutPass4_frame_config_mux.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/RAM_IO_ConfigMem.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/RAM_IO_switch_matrix.v
+
+-v $(USER_PROJECT_VERILOG)/rtl/BB/RegFile_32x4.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/RegFile_ConfigMem.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/RegFile_switch_matrix.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/S_term_DSP_switch_matrix.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/S_term_RAM_IO_switch_matrix.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/S_term_single2_switch_matrix.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/S_term_single_switch_matrix.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/W_IO_ConfigMem.v
+-v $(USER_PROJECT_VERILOG)/rtl/BB/W_IO_switch_matrix.v
+

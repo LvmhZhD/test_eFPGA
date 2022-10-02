@@ -35,6 +35,7 @@ set ::env(FP_PDN_ENABLE_RAILS) 1
 
 
 #set ::env(TAP_DECAP_INSERTION) 1
+#set ::env(LVS_INSERT_POWER_PINS) 0
 
 
 set ::env(CLOCK_PORT) "user_clock2"
@@ -50,7 +51,7 @@ set ::env(MAGIC_WRITE_FULL_LEF) 0
 set ::env(SYNTH_FLAT_TOP) 1
 set ::env(CLOCK_TREE_SYNTH) 1
 set ::env(DESIGN_IS_CORE) 1
-#set ::env(FP_PDN_CORE_RING) 1
+set ::env(FP_PDN_CORE_RING) 1
 set ::env(STA_REPORT_POWER) 0
 #set ::env(SYNTH_USE_PG_PINS_DEFINES) "USE_POWER_PINS"
 #set ::env(VDD_NETS) {vccd1 vdda1 vdda2 vccd2}
@@ -62,7 +63,7 @@ set ::env(PL_SKIP_INITIAL_PLACEMENT) 1
 set ::env(CTS_TARGET_SKEW) 200
 set ::env(CTS_SINK_CLUSTERING_SIZE) 100
 set ::env(CTS_SINK_CLUSTERING_MAX_DIAMETER) 1000
-set ::env(ROUTING_CORES) 12
+set ::env(ROUTING_CORES) 6
 set ::env(RT_MAX_LAYER) {met4}
 set ::env(FP_PDN_CHECK_NODES) 0
 set ::env(RUN_KLAYOUT_XOR) 0

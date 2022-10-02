@@ -1277,12 +1277,12 @@ Config Config_inst (
 
 endmodule
 
-module sky130_fd_sc_hd__inv (
-	Y,
-	A
-	);
-	output Y;
-	input  A;
-
-	assign Y=~A;
-endmodule
+//module sky130_fd_sc_hd__inv (
+//	Y,
+//	A
+//	);
+//	output Y;
+//	input  A;
+//
+//	assign Y=~A;
+//endmodule
